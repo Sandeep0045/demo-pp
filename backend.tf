@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "okta-statefiles"
+    bucket = "okta-tfstate"
     key    = "group.tfstate"
-    region = "us-west-2" 
+    region = "us-east-1" 
   }
 }
